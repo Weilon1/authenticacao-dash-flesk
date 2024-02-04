@@ -1,0 +1,6 @@
+Para utilizar o dash com multipages, utilizar o dcc.location para fazer esse gerenciamento.
+
+Para a estrutura do projeto, utilizar arquivos separados para facilitar o desenvolvimento.
+app.py: Istanciar o layout nesse arquivo, para que os demais componetes possam utilizar o layout atraves desse arquivo
+Pages: Aqui ficaram as outras paginas, exemplo: register,login, data
+index.py: Aqui será o arquivo central onde vai chamar o layout e as páginas conforme o escopo do projeto e rodar o servidor flask.
